@@ -47,3 +47,20 @@ Let's look at the bitwise XOR operation of two integers 12 and 25.
  ^ 00011001
 ____________
    00010101 = 21 (In Decimal)
+   
+   
+   
+   
+   
+   
+   # Left shift operator
+   
+   
+   it will shift two digits to the left
+   For an example,
+   
+   2 ---- > 0010
+   if we shift two digits to the left resulting  0010 <<(left shift) ---> 1000 (it shifted to left side and extra two zero digits are being added)
+   
+   1000 ---> refers to 8 in decimal
+   
