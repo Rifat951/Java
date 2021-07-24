@@ -1,7 +1,7 @@
 # Java
 
 
-# Bitwose AND
+# Bitwise AND
 
 The bitwise AND & operator returns 1 if and only if both the operands are 1. Otherwise, it returns 0.
 
