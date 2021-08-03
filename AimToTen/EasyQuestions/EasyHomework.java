@@ -3,21 +3,26 @@ public class EasyHomework {
     public static void main(String[] args){
 
         int[] x = {-2,3,-6};
+        System.out.print(determineSign(x));
+        
+    }
+    
+     public static String determineSign(int[] A){
+
         int sum = 1;
-        for(int i = 0; i<x.length;i++){
-            System.out.println(x[i]);
-            sum *= x[i];
+        for(int i = 0; i<A.length;i++){
+            //System.out.println(A[i]);
+            sum *= A[i];
         }
         if(sum > 0){
-            System.out.println("Positive");
+            return ("Positive");
         }
         else if(sum<0){
-            System.out.println("Negative");
+            return ("Positive");
         }
         else{
-            System.out.println(("Zero"));
+            return ("Positive");
         }
-
     }
 
 }
