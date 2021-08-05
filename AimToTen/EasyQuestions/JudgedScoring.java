@@ -7,18 +7,8 @@ public class JudgedScoring {
 
         int i =0;
         int sum = 0;
-        for(i = 0 ; i<scores.length;i++){
-            if(scores[i] < scores.length){
-                if(scores[i] < scores[i+1] && scores[i+1]<scores.length-1){
-                    continue;
-                }
-                else {
-                    sum = sum + scores[i+1];
-                }
-            }
-            else {
-                break;
-            }
+        for(i = 1 ; i<scores.length-1;i++){
+            sum = sum + scores[i];
 
         }
         return  sum;
