@@ -26,8 +26,8 @@ public class HalvingEasy {
     public static void main(String[] args){
 
 
-        int[] s = {42, 10, 10, 10, 11, 11, 20, 21, 39, 40, 42, 43, 44};
-        int t = 10;
+        int[] s = {6, 14, 11, 3, 1};
+        int t = 3;
         System.out.println(count(s,t));
 
     }
