@@ -8,8 +8,7 @@ public class WritingWords {
         for (int i : array){
             sum = sum + i;
         }
-        int res = sum - (64*len);
-        return  res;
+        return  sum - (64*len);
     }
 
     public static void main(String[] args){
