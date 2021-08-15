@@ -21,12 +21,13 @@ public class Xylophone {
             strb.append(details.get(keys[i]));
         }
         
-        
+        // this was used for removing the duplicate values
         LinkedHashSet<Character> set = new LinkedHashSet<>();
         for(int i=0;i<strb.length();i++){
             set.add(strb.charAt(i));
         }
         int count =0;
+        // take the count of remaining values
         for(Character ch : set) {
         //    System.out.print(ch);
             count++;
