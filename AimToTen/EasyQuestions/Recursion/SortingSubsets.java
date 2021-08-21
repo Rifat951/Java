@@ -3,7 +3,7 @@ import java.util.Arrays;
 class SortingSubsets {
     public static int count =0;
     public static int index =0;
-    public static int rec(int[] a) {
+    public static int rec(int[] a){
 
         int[] b = a.clone();
         //  System.out.println(Arrays.toString(a));
